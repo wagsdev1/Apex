@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apex Mechanical Insulation - Expert Insulation Solutions</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Inter Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #000000; /* Changed to pure black */
+            color: #e0e0e0; /* Light text color */
+        }
+        /* Custom class for the red color from the logo */
+        .apex-red {
+            background-color: #da291c; /* A shade of red from the logo */
+        }
+        .apex-red-text {
+            color: #da291c;
+        }
+        .apex-red-border {
+            border-color: #da291c;
+        }
+        .gradient-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)); /* Adjusted for black background */
+            z-index: 1;
+        }
+        .hero-image {
+            background-image: url('https://placehold.co/1920x1080/0a0a0a/AAAAAA?text=Industrial+Insulation+Background'); /* Placeholder for a real industrial image, darker background */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            position: relative;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header & Navigation -->
+    <header class="bg-black py-4 px-6 md:px-12 fixed w-full top-0 z-50 shadow-lg">
+        <nav class="container mx-auto flex justify-between items-center">
+            <a href="#" class="flex items-center space-x-3">
+                <!-- Logo provided by the user, path confirmed -->
+                <img src="/download/8A643FEA-6B79-48C0-A683-8AC2DE5CB69A.jpg-2a337523-1f2b-46c6-a69f-5c6e906395bc" alt="Apex Mechanical Insulation Logo" class="h-10 sm:h-12 rounded-lg">
+            </a>
+            <div class="hidden md:flex space-x-8">
+                <a href="#home" class="text-gray-300 hover:text-white font-medium transition duration-300">Home</a>
+                <a href="#about" class="text-gray-300 hover:text-white font-medium transition duration-300">About Us</a>
+                <a href="#services" class="text-gray-300 hover:text-white font-medium transition duration-300">Services</a>
+                <a href="#projects" class="text-gray-300 hover:text-white font-medium transition duration-300">Projects</a>
+                <a href="#contact" class="text-gray-300 hover:text-white font-medium transition duration-300">Contact Us</a>
+            </div>
+            <!-- Mobile Menu Button (Hamburger) -->
+            <button id="mobile-menu-button" class="md:hidden text-gray-300 focus:outline-none">
+                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+            </button>
+        </nav>
+        <!-- Mobile Menu (Hidden by default) -->
+        <div id="mobile-menu" class="md:hidden hidden bg-gray-950 mt-4 rounded-lg shadow-inner">
+            <a href="#home" class="block py-3 px-6 text-gray-200 hover:bg-gray-800 hover:text-white transition duration-300 rounded-lg">Home</a>
+            <a href="#about" class="block py-3 px-6 text-gray-200 hover:bg-gray-800 hover:text-white transition duration-300 rounded-lg">About Us</a>
+            <a href="#services" class="block py-3 px-6 text-gray-200 hover:bg-gray-800 hover:text-white transition duration-300 rounded-lg">Services</a>
+            <a href="#projects" class="block py-3 px-6 text-gray-200 hover:bg-gray-800 hover:text-white transition duration-300 rounded-lg">Projects</a>
+            <a href="#contact" class="block py-3 px-6 text-gray-200 hover:bg-gray-800 hover:text-white transition duration-300 rounded-lg">Contact Us</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-image h-screen flex items-center justify-center text-center relative pt-16">
+        <div class="gradient-overlay z-10"></div>
+        <div class="container mx-auto px-6 z-20">
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight text-white mb-6 animate-fade-in-up">
+                Expert Mechanical Insulation Solutions
+            </h1>
+            <p class="text-lg sm:text-xl lg:text-2xl text-gray-300 max-w-3xl mx-auto mb-10 animate-fade-in-up delay-100">
+                Enhancing Efficiency, Safety, and Sustainability for Commercial & Industrial Needs.
+            </p>
+            <a href="#contact" class="inline-block apex-red text-white font-semibold py-3 px-8 rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-300 ease-in-out animate-fade-in-up delay-200">
+                Get a Free Quote
+            </a>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-16 md:py-24 bg-gray-950">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl sm:text-4xl font-bold text-white mb-8">About Apex Mechanical Insulation</h2>
+            <div class="max-w-4xl mx-auto text-lg text-gray-300 leading-relaxed space-y-4">
+                <p>
+                    At Apex Mechanical Insulation, we are dedicated to providing top-tier mechanical insulation services for a wide range of commercial and industrial applications. With years of experience, our skilled team delivers solutions that optimize energy efficiency, ensure personnel safety, and protect critical systems.
+                </p>
+                <p>
+                    Our commitment to quality, safety, and customer satisfaction sets us apart. We utilize the latest techniques and materials to provide durable, effective, and compliant insulation solutions tailored to your specific project needs.
+                </p>
+                <p>
+                    We believe in building lasting relationships through reliable service and exceptional results. Partner with Apex for insulation solutions that deliver long-term value and performance.
+                </p>
+            </div>
+            <!-- Certification Seal -->
+            <div class="mt-12">
+                <h3 class="text-2xl font-semibold text-white mb-6">Our Certifications</h3>
+                <img src="/download/IMG_0624.jpeg-b3fb48f8-7776-40be-b307-044adaa0cfd5" alt="National Insulation Association Certified Insulation Energy Appraiser Seal" class="mx-auto h-40 sm:h-48 rounded-lg shadow-lg">
+                <p class="text-gray-400 text-sm mt-4">Proudly a National Insulation Association Certified Insulation Energy Appraiser™</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-16 md:py-24 bg-black">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl sm:text-4xl font-bold text-white mb-12">Our Core Services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                <!-- Service Card 1: Pipe Insulation -->
+                <div class="bg-gray-900 p-8 rounded-lg shadow-xl hover:shadow-2xl transition duration-300 transform hover:-translate-y-2 border-t-4 apex-red-border">
+                    <h3 class="text-2xl font-semibold text-white mb-4">Pipe Insulation</h3>
+                    <p class="text-gray-300 leading-relaxed">
+                        Expert insulation for hot and cold piping systems, steam lines, chilled water, and process piping to reduce energy loss and control condensation.
+                    </p>
+                </div>
+                <!-- Service Card 2: Ductwork Insulation -->
+                <div class="bg-gray-900 p-8 rounded-lg shadow-xl hover:shadow-2xl transition duration-300 transform hover:-translate-y-2 border-t-4 apex-red-border">
+                    <h3 class="text-2xl font-semibold text-white mb-4">Ductwork Insulation</h3>
+                    <p class="text-gray-300 leading-relaxed">
+                        Comprehensive insulation for HVAC ducts and plenums, ensuring optimal thermal performance and preventing air leakage.
+                    </p>
+                </div>
+                <!-- Service Card 3: Equipment Insulation -->
+                <div class="bg-gray-900 p-8 rounded-lg shadow-xl hover:shadow-2xl transition duration-300 transform hover:-translate-y-2 border-t-4 apex-red-border">
+                    <h3 class="text-2xl font-semibold text-white mb-4">Equipment Insulation</h3>
+                    <p class="text-gray-300 leading-relaxed">
+                        Insulating boilers, tanks, vessels, heat exchangers, and other industrial equipment for improved efficiency and safety.
+                    </p>
+                </div>
+                <!-- Service Card 4: Removable Covers -->
+                <div class="bg-gray-900 p-8 rounded-lg shadow-xl hover:shadow-2xl transition duration-300 transform hover:-translate-y-2 border-t-4 apex-red-border">
+                    <h3 class="text-2xl font-semibold text-white mb-4">Removable Covers</h3>
+                    <p class="text-gray-300 leading-relaxed">
+                        Custom-fabricated removable insulation covers for valves, flanges, and irregular components, allowing for easy maintenance access.
+                    </p>
+                </div>
+                <!-- Service Card 5: Firestopping -->
+                <div class="bg-gray-900 p-8 rounded-lg shadow-xl hover:shadow-2xl transition duration-300 transform hover:-translate-y-2 border-t-4 apex-red-border">
+                    <h3 class="text-2xl font-semibold text-white mb-4">Firestopping</h3>
+                    <p class="text-gray-300 leading-relaxed">
+                        Installation of firestopping systems to prevent the spread of fire and smoke through penetrations in fire-rated assemblies.
+                    </p>
+                </div>
+                <!-- Service Card 6: Acoustic Insulation -->
+                <div class="bg-gray-900 p-8 rounded-lg shadow-xl hover:shadow-2xl transition duration-300 transform hover:-translate-y-2 border-t-4 apex-red-border">
+                    <h3 class="text-2xl font-semibold text-white mb-4">Acoustic Insulation</h3>
+                    <p class="text-gray-300 leading-relaxed">
+                        Solutions designed to reduce noise levels in industrial and commercial environments, improving comfort and compliance.
+                    </p>
+                </div>
+            </div>
+            <a href="#contact" class="inline-block apex-red text-white font-semibold py-3 px-8 rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-300 ease-in-out mt-12">
+                View All Services (Contact Us for Details)
+            </a>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-16 md:py-24 bg-gray-950">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl sm:text-4xl font-bold text-white mb-12">Our Recent Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project Card 1 -->
+                <div class="bg-gray-900 rounded-lg shadow-md overflow-hidden hover:shadow-xl transition duration-300">
+                    <img src="https://placehold.co/600x400/111111/FFFFFF?text=Project+1" alt="Project 1" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-white mb-2">Industrial Facility Insulation</h3>
+                        <p class="text-gray-300 text-sm">Comprehensive insulation for a large manufacturing plant, enhancing energy efficiency across production lines.</p>
+                    </div>
+                </div>
+                <!-- Project Card 2 -->
+                <div class="bg-gray-900 rounded-lg shadow-md overflow-hidden hover:shadow-xl transition duration-300">
+                    <img src="https://placehold.co/600x400/111111/FFFFFF?text=Project+2" alt="Project 2" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-white mb-2">Commercial HVAC System</h3>
+                        <p class="text-gray-300 text-sm">Insulation of a complex HVAC system for a new commercial office building, ensuring optimal climate control.</p>
+                    </div>
+                </div>
+                <!-- Project Card 3 -->
+                <div class="bg-gray-900 rounded-lg shadow-md overflow-hidden hover:shadow-xl transition duration-300">
+                    <img src="https://placehold.co/600x400/111111/FFFFFF?text=Project+3" alt="Project 3" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-white mb-2">Cryogenic Piping Refurbishment</h3>
+                        <p class="text-gray-300 text-sm">Specialized insulation for cryogenic piping in a research facility, critical for maintaining ultra-low temperatures.</p>
+                    </div>
+                </div>
+            </div>
+            <a href="#contact" class="inline-block apex-red text-white font-semibold py-3 px-8 rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-300 ease-in-out mt-12">
+                See More Projects (Contact Us)
+            </a>
+        </div>
+    </section>
+
+    <!-- Call to Action / Contact Section -->
+    <section id="contact" class="py-16 md:py-24 bg-black">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl sm:text-4xl font-bold text-white mb-8">Ready to Optimize Your Systems?</h2>
+            <p class="text-lg text-gray-300 max-w-2xl mx-auto mb-12">
+                Contact Apex Mechanical Insulation today for a free consultation and customized quote. Let us help you achieve superior energy efficiency and safety.
+            </p>
+            <div class="max-w-xl mx-auto bg-gray-950 p-8 rounded-lg shadow-2xl border-t-4 apex-red-border">
+                <form class="space-y-6">
+                    <div>
+                        <input type="text" placeholder="Your Name" class="w-full p-3 rounded-md bg-gray-800 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-950 focus:ring-apex-red transition duration-300">
+                    </div>
+                    <div>
+                        <input type="email" placeholder="Your Email" class="w-full p-3 rounded-md bg-gray-800 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-950 focus:ring-apex-red transition duration-300">
+                    </div>
+                    <div>
+                        <input type="tel" placeholder="Your Phone (Optional)" class="w-full p-3 rounded-md bg-gray-800 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-950 focus:ring-apex-red transition duration-300">
+                    </div>
+                    <div>
+                        <textarea placeholder="Your Message or Project Details" rows="5" class="w-full p-3 rounded-md bg-gray-800 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-950 focus:ring-apex-red transition duration-300"></textarea>
+                    </div>
+                    <button type="submit" class="w-full apex-red text-white font-bold py-3 rounded-md shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-300 ease-in-out">
+                        Submit Request
+                    </button>
+                </form>
+            </div>
+            <div class="mt-10 text-gray-400 text-center">
+                <p>Or call us directly:</p>
+                <p class="text-2xl font-semibold text-white mt-2">
+                    <a href="tel:+16102621572" class="hover:underline">(610) 262-1572</a>
+                </p>
+                <p class="mt-4">
+                    <a href="mailto:budwashok@apexinsilation.com" class="text-gray-400 hover:text-white hover:underline">budwashok@apexinsilation.com</a>
+                </p>
+                <p class="mt-4">
+                    <strong>Address:</strong> 730 2nd St, Catasauqua, PA 18032
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black py-8 px-6 text-center text-gray-400">
+        <div class="container mx-auto">
+            <p>&copy; 2025 Apex Mechanical Insulation. All rights reserved.</p>
+            <div class="flex justify-center space-x-6 mt-4">
+                <a href="#" class="hover:text-white transition duration-300">Privacy Policy</a>
+                <a href="#" class="hover:text-white transition duration-300">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Mobile Menu Toggle -->
+    <script>
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+            var mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when a link is clicked
+        document.querySelectorAll('#mobile-menu a').forEach(item => {
+            item.addEventListener('click', function() {
+                document.getElementById('mobile-menu').classList.add('hidden');
+            });
+        });
+    </script>
+</body>
+</html>
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the "main" branch
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v4
+
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo Hello, world!
+
+      # Runs a set of commands using the runners shell
+      - name: Run a multi-line script
+        run: |
+          echo Add other actions to build,
+          echo test, and deploy your project.
